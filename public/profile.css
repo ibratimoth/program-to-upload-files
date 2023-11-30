@@ -1,0 +1,49 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.new-user{
+    text-align: center;
+}
+.new-user a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 0.3rem 1rem;
+    border-radius: 0.3rem;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.sect1{
+    background-color: white;
+    padding: 0.5rem 2rem;
+    box-shadow: 1px 1px 2px 2px rgb(209, 205, 196);
+    width: 15%;
+    margin: 1rem auto;
+}
+.sect2{
+    background-color: white;
+    padding: 0.8rem 2rem 1.5rem 2rem;
+    box-shadow: 1px 1px 2px 2px rgb(209, 205, 196);
+    width: 15%;
+    display: flex;
+    margin:0.2rem auto;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.image1{
+    margin-left: 0;
+    padding-left: 0;
+    position: relative;
+    left: -1.3rem;
+    width: 35%;
+}
+.img{
+    height: 100px;
+    border-radius: 50%;
+    width: 140%;
+    object-fit:fill;
+}
+.name{
+    position: relative;
+    left: 1.2rem;
+}

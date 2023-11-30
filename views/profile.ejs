@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Indexht</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<link rel="stylesheet" type="text/css" href="profile.css">
+</head>
+<body>
+<main>
+    <section class="sect1">
+       <div class="new-user">
+        <a href="/new">Add a new user</a>
+       </div>
+    </section>
+    <% for( const user of users ) { %>
+        <section class="sect2">
+            <div class="image1">
+                <image src="<%= user.imagePath %>" class="img" alt="The image of the user">
+            </div>
+            <div class="name"><%= user.name %></div>
+        </section>
+    <% } %>
+</main>
+</body>
+</html>
